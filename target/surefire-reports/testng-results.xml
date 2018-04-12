@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given get 'http://www.google.co.in'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.NoSuchMethodException: org.openqa.selenium.phantomjs.PhantomJSDriver.<init>(java.net.URL, org.openqa.selenium.Capabilities)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICPL12834.local', ip: 'fe80:0:0:0:8f0:33f0:58f4:1517%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_161'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then verify 'name=q' is present</div><div  class="teststep"><span class="teststep-label">T </span>When sendKeys 'QMetry' into 'name=q'</div><div  class="teststep"><span class="teststep-label">T </span>And click on 'name=btnG'</div><div  class="teststep"><span class="teststep-label">T </span>Then verify link with partial text 'QMetry'</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="400" started-at="2018-04-10T12:51:48Z" finished-at="2018-04-10T12:51:48Z">
+    <groups>
+    </groups>
+    <test name="BDD Test" duration-ms="400" started-at="2018-04-10T12:51:48Z" finished-at="2018-04-10T12:51:48Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupSuit" is-config="true" duration-ms="21" started-at="2018-04-10T18:21:48Z" finished-at="2018-04-10T18:21:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e3047e6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupTest" is-config="true" duration-ms="2" started-at="2018-04-10T18:21:48Z" finished-at="2018-04-10T18:21:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e3047e6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setup" is-config="true" duration-ms="2" started-at="2018-04-10T18:21:48Z" finished-at="2018-04-10T18:21:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e3047e6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-04-10T18:21:48Z" finished-at="2018-04-10T18:21:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e3047e6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="SKIP" signature="SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="SampleTest" duration-ms="367" started-at="2018-04-10T18:21:48Z" description="Sample Test Scenario" finished-at="2018-04-10T18:21:48Z">
+          <exception class="com.qmetry.qaf.automation.core.AutomationError">
+            <message>
+              <![CDATA[Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.NoSuchMethodException: org.openqa.selenium.phantomjs.PhantomJSDriver.<init>(java.net.URL, org.openqa.selenium.Capabilities)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICPL12834.local', ip: 'fe80:0:0:0:8f0:33f0:58f4:1517%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_161'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.qmetry.qaf.automation.core.AutomationError: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.NoSuchMethodException: org.openqa.selenium.phantomjs.PhantomJSDriver.<init>(java.net.URL, org.openqa.selenium.Capabilities)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICPL12834.local', ip: 'fe80:0:0:0:8f0:33f0:58f4:1517%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+	at .Given get 'http://www.google.co.in'(scenarios/suite1.bdd:6)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriverObj(UiDriverFactory.java:275)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.access$4(UiDriverFactory.java:245)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:428)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$6(UiDriverFactory.java:416)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:228)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:94)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:553)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:452)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:240)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.qmetry.qaf.automation.step.CommonStep.get_aroundBody24(CommonStep.java:315)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.qmetry.qaf.automation.step.CommonStep.get(CommonStep.java:314)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:169)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:221)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.qmetry.qaf.automation.core.AutomationError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given get 'http://www.google.co.in'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.NoSuchMethodException: org.openqa.selenium.phantomjs.PhantomJSDriver.<init>(java.net.URL, org.openqa.selenium.Capabilities)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICPL12834.local', ip: 'fe80:0:0:0:8f0:33f0:58f4:1517%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_161'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then verify 'name=q' is present</div><div  class="teststep"><span class="teststep-label">T </span>When sendKeys 'QMetry' into 'name=q'</div><div  class="teststep"><span class="teststep-label">T </span>And click on 'name=btnG'</div><div  class="teststep"><span class="teststep-label">T </span>Then verify link with partial text 'QMetry'</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SampleTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-10T18:21:48Z" finished-at="2018-04-10T18:21:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e3047e6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SampleTest status=SKIP method=scenarios.suite1.bdd.SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given get 'http://www.google.co.in'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.NoSuchMethodException: org.openqa.selenium.phantomjs.PhantomJSDriver.<init>(java.net.URL, org.openqa.selenium.Capabilities)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICPL12834.local', ip: 'fe80:0:0:0:8f0:33f0:58f4:1517%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_161'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then verify 'name=q' is present</div><div  class="teststep"><span class="teststep-label">T </span>When sendKeys 'QMetry' into 'name=q'</div><div  class="teststep"><span class="teststep-label">T </span>And click on 'name=btnG'</div><div  class="teststep"><span class="teststep-label">T </span>Then verify link with partial text 'QMetry'</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterClass" is-config="true" duration-ms="0" started-at="2018-04-10T18:21:48Z" finished-at="2018-04-10T18:21:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e3047e6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterTest" is-config="true" duration-ms="1" started-at="2018-04-10T18:21:48Z" finished-at="2018-04-10T18:21:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e3047e6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterSuit" is-config="true" duration-ms="1" started-at="2018-04-10T18:21:48Z" finished-at="2018-04-10T18:21:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e3047e6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

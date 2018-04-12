@@ -1,0 +1,40 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "cssSelectorsEnabled": true,
+      "driverClass": "org.openqa.selenium.phantomjs.PhantomJSDriver"
+    },
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "13-RC1-SNAPSHOT",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "04-Dec-2017 00:26:09"
+    },
+    "run-parameters": {
+      "baseurl": "http://",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_161",
+      "os.arch": "x86_64",
+      "host": "ICPL12834.local",
+      "os.name": "Mac OS X",
+      "user.name": "harshit.shihora",
+      "os.version": "10.13.2"
+    }
+  },
+  "startTime": 1523283044200,
+  "endTime": 1523283044559
+}

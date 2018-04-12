@@ -1,0 +1,24 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Sample Test Scenario",
+        "groups": [],
+        "lineNo": 3,
+        "name": "Provprov 4",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "Provprov_4",
+        "sign": "scenarios.suite1.bdd.Provprov 4()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]",
+        "testEntityKey": "SAM-TC-168"
+      },
+      "dependsOn": [],
+      "startTime": 1523007467856,
+      "duration": 352,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

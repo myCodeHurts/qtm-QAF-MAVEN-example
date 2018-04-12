@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">QAS Demo</th></tr><tr><td><a href="#t0">BDD Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">400</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">QAS Demo</th></tr></tbody><tbody id="t0"><tr><th colspan="4">BDD Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.qmetry.qaf.automation.step.client.Scenario</td><td><a href="#m0">SampleTest</a></td><td rowspan="1">1523364708068</td><td rowspan="1">367</td></tr></tbody></table><h2>BDD Test</h2><h3 id="m0">com.qmetry.qaf.automation.step.client.Scenario#SampleTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given get 'http://www.google.co.in'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of 'driver.init.retry.timeout' appropriately to set retry timeout on driver initialization failure.
+java.lang.NoSuchMethodException: org.openqa.selenium.phantomjs.PhantomJSDriver.<init>(java.net.URL, org.openqa.selenium.Capabilities)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICPL12834.local', ip: 'fe80:0:0:0:8f0:33f0:58f4:1517%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.2', java.version: '1.8.0_161'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>Then verify 'name=q' is present</div><div  class="teststep"><span class="teststep-label">T </span>When sendKeys 'QMetry' into 'name=q'</div><div  class="teststep"><span class="teststep-label">T </span>And click on 'name=btnG'</div><div  class="teststep"><span class="teststep-label">T </span>Then verify link with partial text 'QMetry'</div></div></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">com.qmetry.qaf.automation.core.AutomationError: Timed out after 0 seconds: Unable to create driver instance in 1st attempt with retry timeout of 0 seconds. You can check/set value of &apos;driver.init.retry.timeout&apos; appropriately to set retry timeout on driver initialization failure.
+java.lang.NoSuchMethodException: org.openqa.selenium.phantomjs.PhantomJSDriver.&lt;init&gt;(java.net.URL, org.openqa.selenium.Capabilities)
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;ICPL12834.local&apos;, ip: &apos;fe80:0:0:0:8f0:33f0:58f4:1517%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.2&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: driver.version: unknown
+	at .Given get &apos;http://www.google.co.in&apos;(scenarios/suite1.bdd:6)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriverObj(UiDriverFactory.java:275)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.access$4(UiDriverFactory.java:245)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.getDriver(UiDriverFactory.java:428)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory$Browsers.access$6(UiDriverFactory.java:416)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.getDriver(UiDriverFactory.java:228)
+	at com.qmetry.qaf.automation.ui.UiDriverFactory.get(UiDriverFactory.java:94)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:553)
+	at com.qmetry.qaf.automation.core.QAFTestBase$DriverInitExpectedCondition.apply(QAFTestBase.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.qmetry.qaf.automation.core.QAFTestBase.init(QAFTestBase.java:452)
+	at com.qmetry.qaf.automation.core.QAFTestBase.getUiDriver(QAFTestBase.java:240)
+	at com.qmetry.qaf.automation.ui.WebDriverTestBase.getDriver(WebDriverTestBase.java:47)
+	at com.qmetry.qaf.automation.step.CommonStep.get_aroundBody24(CommonStep.java:315)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.qmetry.qaf.automation.step.CommonStep.get(CommonStep.java:314)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:169)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:221)
+... Removed 8 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

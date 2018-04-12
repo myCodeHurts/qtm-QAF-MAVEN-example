@@ -1,0 +1,12 @@
+
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","testEntityKey":"AUT-TC-4"}
+	
+	Given get 'http://www.google.co.in'
+	Then verify 'name=q' is present
+	When sendKeys 'QMetry' into 'name=q'
+	And click on 'name=btnG'
+	Then verify link with partial text 'QMetry'
+	
+END

@@ -1,0 +1,23 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Sample Test Scenario",
+        "groups": [],
+        "lineNo": 3,
+        "name": "Provprov 1234",
+        "referece": "scenarios/suite1.bdd",
+        "resultFileName": "Provprov_1234",
+        "sign": "scenarios.suite1.bdd.Provprov 1234()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1523299463930,
+      "duration": 372,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}
